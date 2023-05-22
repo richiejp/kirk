@@ -57,14 +57,16 @@ To install `kirk`, please consider the following procedure:
     # clone repository
     git clone git@github.com:acerv/kirk.git
 
+    cd kirk
+
     # create virtualenv (python-3.6+)
-    virtualenv venv
+    virtualenv .venv
 
     # activate virtualenv
-    source venv/bin/activate
+    source .venv/bin/activate
 
     # install kirk
-    pip install ./kirk
+    pip install .
 
     # execute kirk
     kirk --help
